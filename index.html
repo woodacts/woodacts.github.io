@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -16,7 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"> </script>
 <script type="text/javascript" src="js/move-top.js"></script>
-<!--<script type="text/javascript" src="js/easing.js"></script>-->
+<script type="text/javascript" src="js/easing.js"></script>
 <!--/web-font-->
 	<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,500,400italic,500italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
@@ -46,11 +46,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		     <div class="container">
 			  <div class="fixed-header">
 			      <!--logo-->
-			       <div class="logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+<div class="col-md-3">
+						 <div class="logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
                       <a href="index.html"><h1>WOODACTS</h1></a>
 				   </div>
+				 </div>
 					<!--//logo-->
-					<div class="top-menu wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+					<div class="col-md-7">
+					<div class="top-menu wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight; float: left;
+    width: 97%;">
 							<span class="menu"> </span>
 							<nav class="link-effect-4" id="link-effect-4">
                               <ul>
@@ -58,11 +62,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a data-hover="Services" href="#services" class="scroll">Services</a></li>
 								<li><a data-hover="About" href="#about" class="scroll">About</a></li>
 								<li><a data-hover="Gallery" href="#gallery" class="scroll">Gallery</a></li>
+								<li><a data-hover="Team" href="#team" class="scroll">Team</a></li>
 								<li><a data-hover="Contact" href="#contact" class="scroll">Contact</a></li>
 
 								</ul>
 							</nav>
+
 							</div>
+						</div>
+						<div class="col-md-2">
+							<div style="color:#fff; font-size:24px; font-weight:bold;float: right;margin-top: 8px;">9035792769</div>
+						</div>
 							<!-- script-for-menu -->
 								<script>
 									$("span.menu").click(function(){
@@ -94,25 +104,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="callbacks_container">
 					<ul class="rslides" id="slider4">
 					    <li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);
-}
-">
-							      <h3>Carpentry Services Bangalore</h3>
-								  <p>We do all type of carpentry works throught bangalore.</p>
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+								 <h3>Carpentry Services Bangalore</h3>
+							<p>We do all type of carpentry works throught bangalore.</p>
 							  </div>
 						</li>
 						<li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);">
-							    <h3>Carpentry Services</h3>
-								 <p>Call a carpenter at your doorstep!</p>
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+								 <h3>Carpentry Services</h3>
+								<p>Call a carpenter at your doorstep!</p>
 
 
 							  </div>
 						</li>
 						<li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);">
-							      <h3>Schedule</h3>
-								  <p>Schedule a time for us to attend to you.</p>
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+								 <h3>Schedule</h3>
+							 <p>Schedule a time for us to attend to you.</p>
 
 
 						   </div>
@@ -145,8 +153,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 </div>
 	</div>
 <!-- service-type-grid -->
-	<div class="different agileits all_pad" id="services">
-	<div class="container">
+	<div class="different agileits all_pad" id="services" >
+	<div class="container" style="position:relative; top:12px;">
 		<h3 class="title">Our Services</h3>
 		<div class="diff-grids">
 			<div class="col-md-4 diff-grid diff-one bor-bot wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
@@ -155,7 +163,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     	<img class="img-responsive" src="images/p4.jpg" alt="Image-3">
                     </div>
                     <div class="text-desc">
-                    	<h4>Interior</h4>
+											<h4>Interior</h4>
                         <p>Our completed carpentry work will help add value to your home.</p>
                     </div>
                 </div>
@@ -175,7 +183,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     	<img class="img-responsive" src="images/p2.jpg" alt="Image-3">
                     </div>
                     <div class="text-desc">
-                    	<h4>Interior</h4>
+											<h4>Interior</h4>
                         <p>We offer a 100% satisfaction guarantee to give you the peace of mind you deserve</p>
                     </div>
                 </div>
@@ -195,7 +203,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     	<img class="img-responsive" src="images/p1.jpg" alt="Image-3">
                     </div>
                     <div class="text-desc">
-                    	<h4>Sofa</h4>
+											<h4>Sofa</h4>
                         <p>We follow strict quality standards to ensure best quality carpentry services.</p>
                     </div>
                 </div>
@@ -216,16 +224,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //service-type-grid -->
 <!--/products-->
 		  <div class="about w3agile" id="about">
-		     <div class="container">
-			 <h3 class="tittle" style="color:#fff;">About</h3>
+		     <div class="container" style="position:relative; top:12px;">
+			 <h3 class="tittle" style="color:#e2cc41;">About</h3>
 			 <!--/about-section2-->
 			   <div class="about-section">
 
 			        <div class="col-md-5 ab-text two wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
 
-						  <p>From small beginnings to industry leadership, Woodacts remains focused on its founding principles, embraces their customers as “customers for life”, and continually challenges itself to improve system-wide services and processes.
-</p>
-						<p style="margin: 0em 0 0.3em !important;">Woodacts is owned by Kumar AS. I was looking for an opportunity to be involved with our communities and to help people.</p>
+
+		<p>From small beginnings to industry leadership, Woodacts remains focused on its founding principles, embraces their customers as “customers for life”, and continually challenges itself to improve system-wide services and processes.</p>
+		<p style="margin: 0em 0 0.3em !important;">Woodacts is owned by Kumar AS. I was looking for an opportunity to be involved with our communities and to help people.</p>
+
 					</div>
 						<div class="col-md-7 ab-left wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
 
@@ -290,8 +299,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <div class="col-md-5 ab-text wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
 
 
-						   <p>We provide services for Modular Kitchen and Home Decorators, our service range includes Modular Kitchen Interior, Kitchen Interior Designing, Interior Designing Services, Interior Decorating Services.</p>
-						<p style="margin: 0em 0 0.3em !important;">Interior Designing For Bedroom, Wall Fixing Almirah, Commercial Interior Designing, Wooden TV Stand, 4 Drawer TV Stand, Cartesia Wall Mounted Modern TV Cabinets. </p>
+					 <p>We provide services for Modular Kitchen and Home Decorators, our service range includes Modular Kitchen Interior, Kitchen Interior Designing, Interior Designing Services, Interior Decorating Services.</p>
+				<p style="margin: 0em 0 0.3em !important;">Interior Designing For Bedroom, Wall Fixing Almirah, Commercial Interior Designing, Wooden TV Stand, 4 Drawer TV Stand, Cartesia Wall Mounted Modern TV Cabinets. </p>
+
 					</div>
 					<div class="clearfix"> </div>
 			 </div>
@@ -302,10 +312,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!--bottom-->
 	    <div class="bottom w3-1">
 		<div class="container">
-		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;    position: relative;
-    top: -37px;">
+		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 			    <h3>We Are Sharing</h3>
-				   <p>We pay sharp attention to develop important edge of well-being between our clients and their surroundings.
+					<p>We pay sharp attention to develop important edge of well-being between our clients and their surroundings.
 We are supported by a talented and skilled team of experts that enables us to satisfy the requirements of our clients in specialized and timely manner. Our professionals work closely with our clients in order to comprehend their inclinations and further provide them suitable solutions in the best possible manner. These professionals ensure that all our services are developed at par with the international quality standards.</p>
 
 			   </div>
@@ -468,24 +477,71 @@ We are supported by a talented and skilled team of experts that enables us to sa
 				</div>
 			</div>
 	</div>
+<!-- //gallery -->
+<!--start-banner-bottom-->
+   <!--/reviews-->
 
-<!--<div class="newsletter wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp; background-color: #e1cb40;
-    margin-top: 0px;padding-top: 57px; margin-bottom: 0px;">
+<!--//reviews-->
+ <!--start-services-->
+	<div class="team-section" id="team">
+	 	  <div class="container">
+		  <h3 class="tittle" style="color:#e2cc41;">Our Team</h3>
+	 		<div class="box2">
+	 		   <div class="col-md-4 s-1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+			   <a href="#">
+	 		   	<div class="view view-fifth">
+                    <img src="images/chef1.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Kumar As <br/><span style="color:#ccc; font-size:14px;">Owner</span></h4>
+                     </div>
+				    </div>
+				  </a>
+
+				</div>
+		<div class="col-md-4 s-2 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+		<a href="#">
+	 		   	<div class="view view-fifth">
+                      <img src="images/chef2.jpg" alt="chef">
+											<div class="mask">
+												<h4>Sunil <br/><span style="color:#ccc; font-size:14px;">Main carpenter</span></h4>
+
+											 </div>
+				    </div>
+				  </a>
+
+				</div>
+			  <div class="col-md-4 s-3 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+			  <a href="#">
+	 		   	<div class="view view-fifth">
+                     <img src="images/chef3.jpg" alt="chef">
+										 <div class="mask">
+										 		<h4>Somchand <br/><span style="color:#ccc; font-size:14px;">Main carpenter</span></h4>
+										  </div>
+				    </div>
+				  </a>
+
+				</div>
+
+				<div class="clearfix"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+	<!--end-team-->
+	 <!--newsletter-->
+<!--<div class="newsletter wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 		<div class="container">
 			<h3>sign up for our newsletter</h3>
-			<p>EXPERIENCED AND QUALIFIED CARPENTERS</p>
+			<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
 			<form action="#" method="post">
 				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-
 				<input type="submit" value="Subscribe">
 			</form>
 		</div>
 	</div>-->
-
 	 <!--/newsletter-->
 	 <!--contact-->
-	<div class="contact_w3agile" id="contact" style="background-color: #e1cb40;">
-	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp; width:auto; ">
+	<div class="contact_w3agile" id="contact">
+	<div class="container wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;position:relative; top:12px;">
 		<h2 class="title">Contact</h2>
 
 		<form method="POST" action="http://formspree.io/woodacts999@gmail.com">
@@ -504,9 +560,7 @@ We are supported by a talented and skilled team of experts that enables us to sa
 
 	</div>
 </div>
-
 	<!--/contact-->
-
 	<div class="map wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.106619282473!2d77.60208401431372!3d12.900865219918254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae151f71ed7aa1%3A0x6b09cd57650cabfb!2sc4%2C+Kamaths+Andapos+Residency+Apartment%2C+4th+Main+Rd%2C+Thayappa+Garden%2C+Ranka+Colony%2C+Bilekahalli%2C+Bengaluru%2C+Karnataka+560076!5e0!3m2!1sen!2sin!4v1490006554817" style="border:0" allowfullscreen></iframe>
 	</div>
@@ -517,7 +571,7 @@ We are supported by a talented and skilled team of experts that enables us to sa
 				<div class="icons wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
 					<ul>
 						<li><a href="https://m.facebook.com/WoodActs/?ref=bookmarks" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><img src="images/i1.png" alt=""></a></li>
-						<li><a href="https://plus.google.com/u/0/" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google+"><img src="images/i3.png" alt=""></a></li>
+						<li><a href="https://plus.google.com/u/0/103994592289272558623" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google+"><img src="images/i3.png" alt=""></a></li>
 						<li><a href="https://www.linkedin.com/in/wood-acts-886187135/" data-toggle="tooltip" data-placement="top" title="" data-original-title="LinkedIn"><img src="images/i4.png" alt=""> </a></li>
 					</ul>
 					<script>$(function () {
