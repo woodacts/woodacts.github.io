@@ -94,13 +94,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="callbacks_container">
 					<ul class="rslides" id="slider4">
 					    <li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);
+}
+">
 							      <h3>Carpentry Services Bangalore</h3>
 								  <p>We do all type of carpentry works throught bangalore.</p>
 							  </div>
 						</li>
 						<li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);">
 							    <h3>Carpentry Services</h3>
 								 <p>Call a carpenter at your doorstep!</p>
 
@@ -108,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							  </div>
 						</li>
 						<li>
-						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+						   <div class="banner-info wthree wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;background-color: rgba(0, 0, 0, 0.21);">
 							      <h3>Schedule</h3>
 								  <p>Schedule a time for us to attend to you.</p>
 
@@ -215,7 +217,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--/products-->
 		  <div class="about w3agile" id="about">
 		     <div class="container">
-			 <h3 class="tittle">About</h3>
+			 <h3 class="tittle" style="color:#fff;">About</h3>
 			 <!--/about-section2-->
 			   <div class="about-section">
 
@@ -300,7 +302,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <!--bottom-->
 	    <div class="bottom w3-1">
 		<div class="container">
-		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+		       <div class="bottom-top wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;    position: relative;
+    top: -37px;">
 			    <h3>We Are Sharing</h3>
 				   <p>We pay sharp attention to develop important edge of well-being between our clients and their surroundings.
 We are supported by a talented and skilled team of experts that enables us to satisfy the requirements of our clients in specialized and timely manner. Our professionals work closely with our clients in order to comprehend their inclinations and further provide them suitable solutions in the best possible manner. These professionals ensure that all our services are developed at par with the international quality standards.</p>
@@ -486,12 +489,15 @@ We are supported by a talented and skilled team of experts that enables us to sa
 		<h2 class="title">Contact</h2>
 
 		<form method="POST" action="http://formspree.io/woodacts999@gmail.com">
-			<input type="text" placeholder="Your Name" name="name">
-			<input name="email" placeholder="Your email" type="email">
-			 <textarea name="message" placeholder="Your message"></textarea>
+			<!--<input type="text" placeholder="Your Name" name="name">
+			<input type="email" placeholder="Your Name" name="email">
+			 <textarea name="message" placeholder="Your message"></textarea>-->
+			 <input type="text" value="Name" name="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+ 			<input type="email address" value="Email" name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+ 			<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
 			<div class="con-form text-center">
 
-				<button type="submit">Send</button>
+				<button type="submit" style="background: #000; color: #fff;width: 16%;padding: 10px;border-color: rgba(251, 251, 251, 0.63);">Send</button>
 
 			</div>
 		</form>

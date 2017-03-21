@@ -604,7 +604,7 @@ figure.effect-jazz p {
 	transform: scale3d(0.8,0.8,1);
 }
 figure.effect-jazz h4 {
-    padding-top: 50%;
+    padding-top: 31%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     color: #e2cc41;
